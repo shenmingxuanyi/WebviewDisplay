@@ -1,0 +1,103 @@
+page-home {
+
+  ion-content {
+    background-image: url("../assets/page-bg.jpg");
+    .logo {
+      font-size: 50vmin;
+      -moz-animation: logo-keyframes 5000ms linear infinite alternate;
+      -o-animation: logo-keyframes 5000ms linear infinite alternate;
+      -webkit-animation: logo-keyframes 5000ms linear infinite alternate;
+      -ms-animation: logo-keyframes 5000ms linear infinite alternate;
+      animation: logo-keyframes 5000ms linear infinite alternate;
+    }
+
+    .item-input {
+      padding-left: 0;
+    }
+  }
+
+}
+
+@-moz-keyframes logo-keyframes {
+  0% {
+    color: #222;
+    -moz-text-shadow: 2.5vmin 2.5vmin 15vmin rgba(255, 255, 0, 0),
+    2.5vmin -2.5vmin 15vmin rgba(255, 0, 0, 0),
+    -2.5vmin 2.5vmin 15vmin rgba(0, 255, 0, 0),
+    -2.5vmin -2.5vmin 15vmin rgba(0, 255, 255, 0);
+  }
+  100% {
+    color: rgba(0, 0, 0, .5);
+    -moz-text-shadow: 2.5vmin 2.5vmin 5vmin rgba(255, 255, 0, .5),
+    2.5vmin -2.5vmin 5vmin rgba(255, 0, 0, .5),
+    -2.5vmin 2.5vmin 5vmin rgba(0, 255, 0, .5),
+    -2.5vmin -2.5vmin 5vmin rgba(0, 255, 255, .5);
+  }
+}
+
+@-ms-keyframes logo-keyframes {
+  0% {
+    color: #222;
+    -ms-text-shadow: 2.5vmin 2.5vmin 15vmin rgba(255, 255, 0, 0),
+    2.5vmin -2.5vmin 15vmin rgba(255, 0, 0, 0),
+    -2.5vmin 2.5vmin 15vmin rgba(0, 255, 0, 0),
+    -2.5vmin -2.5vmin 15vmin rgba(0, 255, 255, 0);
+  }
+  100% {
+    color: rgba(0, 0, 0, .5);
+    -ms-text-shadow: 2.5vmin 2.5vmin 5vmin rgba(255, 255, 0, .5),
+    2.5vmin -2.5vmin 5vmin rgba(255, 0, 0, .5),
+    -2.5vmin 2.5vmin 5vmin rgba(0, 255, 0, .5),
+    -2.5vmin -2.5vmin 5vmin rgba(0, 255, 255, .5);
+  }
+}
+
+@-o-keyframes logo-keyframes {
+  0% {
+    color: #222;
+    -o-text-shadow: 2.5vmin 2.5vmin 15vmin rgba(255, 255, 0, 0),
+    2.5vmin -2.5vmin 15vmin rgba(255, 0, 0, 0),
+    -2.5vmin 2.5vmin 15vmin rgba(0, 255, 0, 0),
+    -2.5vmin -2.5vmin 15vmin rgba(0, 255, 255, 0);
+  }
+  100% {
+    color: rgba(0, 0, 0, .5);
+    -o-text-shadow: 2.5vmin 2.5vmin 5vmin rgba(255, 255, 0, .5),
+    2.5vmin -2.5vmin 5vmin rgba(255, 0, 0, .5),
+    -2.5vmin 2.5vmin 5vmin rgba(0, 255, 0, .5),
+    -2.5vmin -2.5vmin 5vmin rgba(0, 255, 255, .5);
+  }
+}
+
+@-webkit-keyframes logo-keyframes {
+  0% {
+    color: #222;
+    text-shadow: 2.5vmin 2.5vmin 15vmin rgba(255, 255, 0, 0),
+    2.5vmin -2.5vmin 15vmin rgba(255, 0, 0, 0),
+    -2.5vmin 2.5vmin 15vmin rgba(0, 255, 0, 0),
+    -2.5vmin -2.5vmin 15vmin rgba(0, 255, 255, 0);
+  }
+  100% {
+    color: rgba(0, 0, 0, .5);
+    text-shadow: 2.5vmin 2.5vmin 5vmin rgba(255, 255, 0, .5),
+    2.5vmin -2.5vmin 5vmin rgba(255, 0, 0, .5),
+    -2.5vmin 2.5vmin 5vmin rgba(0, 255, 0, .5),
+    -2.5vmin -2.5vmin 5vmin rgba(0, 255, 255, .5);
+  }
+}
+
+@keyframes logo-keyframes {
+  0% {
+    text-shadow: 2.5vmin 2.5vmin 15vmin rgba(255, 255, 0, 0),
+    2.5vmin -2.5vmin 15vmin rgba(255, 0, 0, 0),
+    -2.5vmin 2.5vmin 15vmin rgba(0, 255, 0, 0),
+    -2.5vmin -2.5vmin 15vmin rgba(0, 255, 255, 0);
+  }
+  100% {
+    color: rgba(0, 0, 0, .5);
+    text-shadow: 2.5vmin 2.5vmin 5vmin rgba(255, 255, 0, .5),
+    2.5vmin -2.5vmin 5vmin rgba(255, 0, 0, .5),
+    -2.5vmin 2.5vmin 5vmin rgba(0, 255, 0, .5),
+    -2.5vmin -2.5vmin 5vmin rgba(0, 255, 255, .5);
+  }
+}

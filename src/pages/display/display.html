@@ -1,0 +1,25 @@
+<ion-content>
+
+    <iframe [src]="url" frameborder="0"
+            style="min-height: 100%;width:100%;border: 0;padding: 0;margin: 0;"></iframe>
+
+    <ion-fab right bottom #fab>
+
+        <button ion-fab color="primary">
+            <ion-icon name="arrow-dropleft"></ion-icon>
+        </button>
+
+        <ion-fab-list side="left">
+
+            <button ion-fab color="primary" (click)="refresh();fab.close();">
+                <ion-icon name="refresh"></ion-icon>
+            </button>
+
+            <button ion-fab color="primary" (click)="fab.close();" navPop>
+                <ion-icon name="arrow-dropleft"></ion-icon>
+            </button>
+
+        </ion-fab-list>
+    </ion-fab>
+
+</ion-content>

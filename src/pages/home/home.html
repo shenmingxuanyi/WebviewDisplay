@@ -1,0 +1,22 @@
+<ion-content padding>
+
+
+    <div style="margin: 5vmin 0 0 0;" text-center>
+        <ion-icon class="logo" name="ios-phone-portrait"></ion-icon>
+        <h2>Web View Display</h2>
+        <p>power by Zhao.Junming</p>
+    </div>
+
+    <ion-fab right bottom>
+        <button ion-fab color="primary" (click)="qrScanner()">
+            <ion-icon name="qr-scanner"></ion-icon>
+        </button>
+    </ion-fab>
+
+    <ion-item class="item-input">
+        <ion-input style="padding-left: 16px;" no-lines [(ngModel)]="url" type="text" placeholder="Please Input URL."></ion-input>
+    </ion-item>
+
+    <button margin-top [disabled]="!!!url" (click)="hrefToUrl()" ion-button block>Done</button>
+
+</ion-content>
