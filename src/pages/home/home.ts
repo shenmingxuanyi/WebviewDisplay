@@ -34,8 +34,10 @@ export class HomePage {
     qrScanner() {
         BarcodeScanner.scan()
             .then((barcodeData) => {
-                this.url = barcodeData.text;
-                this.hrefToUrl();
+                if (!barcodeData.cancelled) {
+                    this.url = barcodeData.text;
+                    this.hrefToUrl();
+                }
             });
     }
 
